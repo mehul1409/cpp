@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float a,b,sub;
+    cout<<"enter two numbers";
+    cout<<"\n";
+
+    cout<<"enter  number a:";
+    cin>>a;
+
+    cout<<"enter number b:";
+    cin>>b;
+
+    sub=a-b;
+    cout<<"sub of two number is:"<<sub;
+
+return 0;
+}
+
