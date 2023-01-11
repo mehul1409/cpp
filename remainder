@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,rem;
+    cout<<"enter two numbers";
+    cout<<"\n";
+
+    cout<<"enter  number a:";
+    cin>>a;
+
+    cout<<"enter number b:";
+    cin>>b;
+
+    rem=a%b;
+    cout<<"remainder of two number is:"<<rem;
+
+return 0;
+}
+
+
