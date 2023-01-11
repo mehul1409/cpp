@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float a,b,sum;
+    cout<<"enter two numbers \n";
+
+    cout<<"enter  number a:";
+    cin>>a;
+
+    cout<<"enter number b:";
+    cin>>b;
+
+    sum=a+b;
+    cout<<"sum of two number is:"<<sum;
+
+return 0;
+}
