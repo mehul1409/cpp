@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float a,b,multiply;
+    cout<<"enter two numbers";
+    cout<<"\n";
+
+    cout<<"enter  number a:";
+    cin>>a;
+
+    cout<<"enter number b:";
+    cin>>b;
+
+    multiply=a*b;
+    cout<<"multiplication of two number is:"<<multiply;
+
+return 0;
+}
+
