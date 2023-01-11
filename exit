@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   cout<<"c"<<endl;
+   cout<<"c++"<<endl;
+   cout<<"java"<<endl;
+   exit(0);
+   cout<<"python";
+
+return 0;
+}
+
