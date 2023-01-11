@@ -1,0 +1,48 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,sum,sub,mul,div,rem,ch;
+
+    cout<<"1-addition\n";
+    cout<<"2-subtraction\n";
+    cout<<"3-multiplication\n";
+    cout<<"4-division\n";
+    cout<<"5-finding remainder\n\n";
+
+     cout<<"enter choice want you want to perform:";
+    cin>>ch;
+
+    cout<<"enter two numbers \n\n";
+
+    cout<<"enter number a:";
+    cin>>a;
+
+    cout<<"enter number b:";
+    cin>>b;
+    cout<<"\n";
+
+    switch(ch)
+    {
+        case 1: sum=a+b;
+                       cout<<"addition="<<sum;
+        break;
+        case 2: sub=a-b;
+                        cout<<"subtraction="<<sub;
+        break;
+        case 3: mul=a*b;
+                        cout<<"multiplication="<<mul;
+        break;
+        case 4: div=a/b;
+                        cout<<"division="<<div;
+        break;
+        case 5: rem=a%b;
+                         cout<<"remainder="<<rem;
+        break;
+        default : cout<<"Invalid Operation";
+        break;
+    }
+
+return 0;
+}
