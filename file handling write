@@ -1,0 +1,13 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+    string str;
+    ofstream newfile("cpp2.txt");
+    newfile<<"Hii,my name is mehul bansal";
+
+    newfile.close();
+return 0;
+}
+
