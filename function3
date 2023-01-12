@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int a=10;          //global
+void fun()         //definition
+{
+    cout<<a<<endl;
+}
+int main()
+{
+
+    int b=10;
+    fun();       //calling
+    cout<<a<<"\t"<<b<<endl;
+
+return 0;
+}
+
