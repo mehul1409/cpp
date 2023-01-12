@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+void fun()         //definition
+{
+     int a=10;
+    static int b=10;
+    cout<<a<<"\t"<<b<<endl;
+    ++a;++b;           //11   11
+}
+int main()
+{
+    fun();       //calling             //10         10
+    fun();                                      //10          11
+    fun();
+    fun();
+return 0;
+}
