@@ -1,0 +1,12 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+    string str;
+    ofstream newfile("cpp2.txt");
+    cout<<"File created successfully";
+    newfile.close();
+return 0;
+}
+
