@@ -1,0 +1,13 @@
+#include<iostream>
+#define num(a,b) ( (a>b)?a:b)
+using namespace std;
+int main()
+{
+    int i,r;
+   cout<<num(246,432)<<endl;
+   cout<<num(244,323)<<endl;
+   cout<<num(26,42)<<endl;
+   cout<<num(46,32)<<endl;
+return 0;
+}
+
