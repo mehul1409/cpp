@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+union stu
+{
+    int roll;
+    float marks;
+    char name[20];
+};
+int main()
+{
+    union stu s;
+     cout<<"Enter student roll no.:";
+     cin>>s.roll;
+     cout<<s.roll<<endl;
+     cout<<"enter marks of student:";
+     cin>>s.marks;
+     cout<<s.marks<<endl;
+     cout<<"enter name of student:";
+     cin>>s.name;
+     cout<<endl;
+     cout<<s.name<<endl;
+
+return 0;
+}
+
+
