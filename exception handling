@@ -1,0 +1,25 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+    cout<<"execution starting"<<endl;
+    int a,b,c;
+    cout<<"enter two numbers"<<endl;
+    cin>>a>>b;
+
+    try
+    {
+        if(b=0)
+            throw b;
+        c=a/b;
+    cout<<"result="<<c<<endl;
+    }
+    catch(int x)
+    {
+        cout<<"can't be divided by 0"<<x;
+    }
+    cout<<"execution ended";
+return 0;
+}
+
