@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+struct stu
+{
+    int marks;                  //4 bytes
+    float avg;                  //4 bytes
+    double salary;        //8 bytes
+};
+union stu2
+{
+    int marks;             //4 bytes
+    float avg;              //4 bytes
+    double salary;      //8 bytes
+};
+int main()
+{
+    struct stu s;
+    union stu2 s2;
+
+    cout<<"structure size="<<sizeof(s)<<endl;
+    cout<<"union size="<<sizeof(s2);
+
+return 0;
+}
+
