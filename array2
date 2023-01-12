@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,a,b;
+
+   cout<<"Enter the size of matrix:\n";
+    cout<<"No. of row =";
+    cin>>a;
+    cout<<"No. of column =";
+    cin>>b;
+
+    int arr[a][b];
+
+     cout<<"enter array element:";
+    for(i=0;i<a;i++)
+    {
+        for(j=0;j<b;j++)
+        {
+            cin>>arr[i][j];
+        }
+    }
+
+     cout<<" array element:\n";
+    for(i=0;i<a;i++)
+    {
+        for(j=0;j<b;j++)
+        {
+            cout<<arr[i][j]<<"\t";
+        }
+        cout<<endl;
+    }
+
+return 0;
+}
