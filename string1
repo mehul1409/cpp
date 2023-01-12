@@ -1,0 +1,20 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+    char str[]="mehul";
+     char str2[]="bansal";
+
+    cout<<str<<endl;
+    int r=strlen(str);
+    cout<<r<<endl;
+
+    strrev(str);
+    cout<<str<<endl;
+
+    strcat(str2,str);
+    cout<<str2<<endl;
+
+return 0;
+}
